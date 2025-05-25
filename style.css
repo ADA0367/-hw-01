@@ -1,0 +1,48 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --main-color: #333;
+  --bg-color: #f9f9f9;
+  --accent-color: #007acc;
+  --padding-section: 60px 0;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
+  background-color: var(--bg-color);
+  margin: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: var(--padding-section);
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  cursor: pointer;
+}
