@@ -4,36 +4,43 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>hw-01 - Перша сторінка</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <h1>hw-01: Перша сторінка</h1>
-    <nav>
-      <a href="https://github.com/ADA0367/-hw-01">Репозиторій на GitHub</a>
-    </nav>
+  <header class="section">
+    <div class="container header-wrapper">
+      <a href="index.html" class="logo">hw-01</a>
+      <h1>Перша сторінка</h1>
+      <nav>
+        <a href="https://github.com/ADA0367" target="_blank">Репозиторій на GitHub</a>
+      </nav>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Розділ з прикладом зображення</h2>
-      <p>Опис картинки нижче:</p>
-      <img
-        src="./images/3570e1a5fbd85e9ecd9deac9156d47f6.jpg"
-        alt="Приклад зображення: красива природа"
-        width="600"
-        height="400"
-      />
-      <p>Це короткий опис картинки на українській мові.</p>
+    <section class="section">
+      <div class="container image-section">
+        <h2>Розділ з прикладом зображення</h2>
+        <p>Опис картинки нижче:</p>
+        <img src="./images/3570e1a5fbd85e9ecd9deac9156d47f6.jpg" alt="Приклад зображення: красива природа" width="600" height="400" />
+        <p>Це короткий опис картинки на українській мові.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Текстовий контент</h2>
-      <p>Тут розміщується текстовий контент, взятий із макету, для демонстрації семантичної розмітки.</p>
+    <section class="section">
+      <div class="container">
+        <h2>Текстовий контент</h2>
+        <p>Тут розміщується текстовий контент, взятий із макету, для демонстрації семантичної розмітки.</p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 hw-01. Всі права захищені.</p>
+  <footer class="section">
+    <div class="container">
+      <p>© 2025 hw-01. Всі права захищені.</p>
+    </div>
   </footer>
 </body>
 </html>
